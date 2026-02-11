@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio | Live</title>
+    <title>Rashid Guliyev | Portfolio</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -16,33 +16,34 @@
             margin: 0;
             text-align: center;
         }
-        .container {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 2rem;
-            border-radius: 15px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        .content {
+            border-top: 4px solid #0070f3;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border-radius: 8px;
         }
-        h1 { margin-bottom: 0.5rem; }
-        p { font-size: 1.1rem; opacity: 0.9; }
-        .status {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 5px 15px;
-            background: #4ade80;
-            color: #064e3b;
-            border-radius: 20px;
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #111;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+        .name-tag {
+            color: #0070f3;
             font-weight: bold;
-            font-size: 0.8rem;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Project Deployed Successfully</h1>
-        <p>Welcome to my first automated cloud-hosted website.</p>
-        <div class="status">● Site is Live</div>
+    <div class="content">
+        <h1>Welcome to my website</h1>
+        <p>Created by <span class="name-tag">Rashid Guliyev</span></p>
+        <p style="font-size: 0.9rem; margin-top: 20px; color: #999;">
+            Automatically deployed via GitHub & Netlify
+        </p>
     </div>
 </body>
 </html>
